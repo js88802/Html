@@ -1,0 +1,157 @@
+nav {
+    overflow: hidden;
+}
+/* 列表页css */
+.sk {
+    position: absolute;
+    left: 190px;
+    top: 40px;
+    border-left: 1px solid #c81523;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+}
+.sk_list ul li a {
+    display: block;
+    line-height: 47px;
+    padding: 0 30px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+}
+.sk_con ul li a {
+    display: block;
+    line-height: 49px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+.sk_bd {
+    width: 1200px;
+    padding-top: 25px;
+    /* background-color: #ccc; */
+}
+
+ .sk_good {
+    position: relative;
+    float: left;
+    /* background-color: pink;  */
+    width: 290px;
+    height: 460px;
+    /* background-color: #f1f1f1; */
+    border: 1px solid transparent;
+    margin: 0 12px 15px 0;
+}
+.sk_good:hover {
+    border: 1px solid #e12228;
+}
+.sk_good img {
+    position: relative;
+    top: 50%;
+    left: 10%; 
+    transition: all 0.5s;
+}
+.sk_good img:hover {
+    transform: translateY(-5px);
+}
+.sk_good h5 {
+    font-size: 14px;
+    color: #666;
+    padding: 10px;
+    font-weight: 400;
+}
+.sk_goods_price {
+    padding: 0 10px;
+}
+.sk_goods_price em {
+	font-size: 22px;
+	color: #e60012;
+}
+.sk_goods_price del {
+	font-size: 14px;
+	font-weight: 700;
+	color: #a4a4a4;
+}
+.sk_goods_progress {
+	padding: 0 10px;
+}
+.bar {
+	display: inline-block;
+	width: 130px;
+	height: 10px;
+	border: 1px solid #b1191a;
+	vertical-align: middle;
+	margin: 0 5px;
+	border-radius: 5px;
+}
+.bar_in {
+    width: 87%;
+	height: 10px;
+	background-color: #f24349;
+}
+.sk_goods_progress em,
+.sk_goods_progress i {
+	color: #f24349;
+}
+
+.sk_goods_buy {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #b1191a;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+.sk_bd ul {
+    width: 1212px;
+}
+.box {
+    text-align: center;
+    margin: 30px 0;
+}
+.box .box_f,
+.box .box_l{
+    width: 85px;
+}
+.box a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 36px;
+    color: #333;
+    font-size: 14px;
+}
+ .current {
+   border-color: transparent;
+}
+.box input {
+    width: 48px;
+    height: 36px;
+    border: 1px solid #ccc;
+}
+
+.box button {
+    width: 50px;
+	height: 36px;
+	border: 1px solid #CCC;
+	background-color: #F7F7F7;
+}
